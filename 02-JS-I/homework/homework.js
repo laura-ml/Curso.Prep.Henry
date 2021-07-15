@@ -106,7 +106,7 @@ function obtenerResto(x, y) {
   // Tu código:
   ; // o crear variable: var resto x % y; return resto;
 var resto= x % y;
-return resto; // return x %  y;
+return resto; // return x %  y;ccc
 }
 
 

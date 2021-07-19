@@ -161,8 +161,8 @@ function agregarMetodoCalculoDescuento(producto) {
   //cuando habla de metodo habla de funcion, cuando es objeto
 producto.calcularPrecioDescuento = function(){
  var descuento = 0;
-  descuento = producto.precio * producto.porcentajeDeDescuento
-  var nwPrice = producto.precio - descuento
+  descuento = this.precio * this.porcentajeDeDescuento
+  var nwPrice = this.precio - descuento //this hace referencia al objeto (producto)
   return nwPrice;
 }
 return producto;

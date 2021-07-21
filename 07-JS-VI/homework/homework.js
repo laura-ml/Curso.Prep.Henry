@@ -66,7 +66,9 @@ function filter(array) {
   })
   return newArray;
 }
-
+//la funcion filter modifica sin tener que pushar. Retorna el nuevo arreglo ya filtrado.
+// Para modificar todo lo del array se usa .map y .foreach es como un for comun (no se puede salir, sigue con cada elemento, no se usa con return)
+// La flecha : => reemplaza la palabra function.
 // No modificar nada debajo de esta línea
 // --------------------------------
 
